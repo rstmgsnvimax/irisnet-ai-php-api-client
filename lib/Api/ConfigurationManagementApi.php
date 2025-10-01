@@ -130,7 +130,7 @@ class ConfigurationManagementApi
     /**
      * @return Configuration
      */
-    public function getConfig()
+    public function getConfigDeprecated()
     {
         return $this->config;
     }
